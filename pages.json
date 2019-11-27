@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/component/nav",
+			"style": {}
+		},
+		{
+		    "path" : "pages/my/my",
+		    "style" : {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"backgroundColor": "#FFFFFF"
+			}
+		}
+		
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"backgroundColor": "white",
+				"background":"white"
+			}
+        }
+        ,{
+            "path" : "pages/pub/pub",
+            "style" : {
+				"navigationBarTitleText": "我的发布",
+				"navigationBarBackgroundColor": "white",
+				"backgroundColor": "white"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "食谱app",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "white"
+	},
+	"tabBar":{
+		"color":"#444",
+		"selectedColor":"#1aab9d",
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"text":"首页",
+				"iconPath":"static/image/home/tab_icon1.png",
+				"selectedIconPath":"static/image/home/tab_icon1_active.png"
+			},
+			{
+				"pagePath":"pages/index/index",
+				"text":"分类",
+				"iconPath":"static/image/home/tab_icon2.png",
+				"selectedIconPath":"static/image/home/tab_icon2_active.png"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"text":"社区",
+				"iconPath":"static/image/home/tab_icon3.png",
+				"selectedIconPath":"static/image/home/tab_icon3_active.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/image/home/tab_icon4.png",
+				"selectedIconPath":"static/image/home/tab_icon4_active.png"
+			}
+		]
+	}
+}
